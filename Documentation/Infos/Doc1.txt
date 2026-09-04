@@ -1,0 +1,6 @@
+1.List Comprehension: A concise way to create lists in Python.
+                      Compact and Easier to read than traditional loops
+                      [expression for value in iterable if condition]
+
+2.Match Case statement: An alternative to using elif statements, Executes some code if a value matches
+                        a case. Better and Cleaner syntax.
