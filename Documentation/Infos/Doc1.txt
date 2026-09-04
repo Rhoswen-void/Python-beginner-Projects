@@ -4,3 +4,6 @@
 
 2.Match Case statement: An alternative to using elif statements, Executes some code if a value matches
                         a case. Better and Cleaner syntax.
+
+3.Modules: A file containing code you want to include in your program, use 'import' to use these Modules
+           useful to break up large program reusable seperate files.
