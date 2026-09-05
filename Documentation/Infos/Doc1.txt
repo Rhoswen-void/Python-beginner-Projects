@@ -12,3 +12,10 @@
 
 4.Variable scope: where a variable is visible and accessible
   Scope resolution: (LEGB) Local -> Enclosed -> Global -> Built-in
+
+5.if __name__ == '__main__': (This script can be imported  OR run standalone)
+                             Functions and classes in this module can be reused
+                             without the main block of code executing.
+
+            ex. Library: Suppose here Library is a function, and we want to import this function
+            library. But when running the library function, a Help Page pops up. 
