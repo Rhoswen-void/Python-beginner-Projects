@@ -7,3 +7,6 @@
 
 3.Modules: A file containing code you want to include in your program, use 'import' to use these Modules
            useful to break up large program reusable seperate files.
+
+4.Variable scope: where a variable is visible and accessible
+  Scope resolution: (LEGB) Local -> Enclosed -> Global -> Built-in
