@@ -6,7 +6,9 @@
                         a case. Better and Cleaner syntax.
 
 3.Modules: A file containing code you want to include in your program, use 'import' to use these Modules
-           useful to break up large program reusable seperate files.
+           useful to break up large program reusable seperate files. Also when a python file is imported
+           as a module, python creates a __pycache__ folder that contains the byte code for the module
+           so the next time we import the program file in another program it's executed faster.
 
 4.Variable scope: where a variable is visible and accessible
   Scope resolution: (LEGB) Local -> Enclosed -> Global -> Built-in
