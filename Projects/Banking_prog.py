@@ -6,9 +6,13 @@ def show_balance():
 def deposit():
     global balance#THis gloabl keyword is used to point at the global variable balance
     depo_amt = float(input("Enter the amount to deposit: "))
-    balance += depo_amt
-    print(f"Successfully deposited ${depo_amt}")
+    if depo_amt <= 0:
+        print("Invalid deposit amount. Please enter a positive value.")
+    else:
+        balance += depo_amt
+        print(f"Successfully deposited ${depo_amt}")
 
+        
 def withdraw():
     global balance
     withdraw_amt = float(input("Enter the amount to withdraw: "))
