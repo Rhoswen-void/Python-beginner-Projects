@@ -18,7 +18,10 @@
                              without the main block of code executing.
                              Basically when importing some python files when we wanna borrow 
                              some functions from the file, and dont want to run the main() function
-                             We have to use the if __name__ == "__main__": guard
+                             We have to use the if __name__ == "__main__": guard, so that the main function 
+                             only runs when called.
+                             Good practice(code is modular,
+                             helps with readability, leaves no variables, avoid unintended exectution)
 
             ex. Library: Suppose here Library is a function, and we want to import this function
             library. But when running the library function, a Help Page pops up. 
