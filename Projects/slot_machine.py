@@ -3,9 +3,8 @@ import random
 def spin_row():
     symbols = ["🍒", "🍋", "🍊", "🍉", "🍇"]
 
-    results =[]
-    for i in range(3):
-        results.append(random.choice(symbols))
+    results =[random.choice(symbols) for i in range(3)]
+    
     return results
 
 def print_row(row):
