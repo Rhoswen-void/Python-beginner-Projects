@@ -1,0 +1,5 @@
+Encryption Program:
+
+To create this program we create a string of character and store it in chars.
+and then, create a list called key and then shuffle this key.
+This key can then be used to encrypt or decrypt any of the message that are sent by the user.
