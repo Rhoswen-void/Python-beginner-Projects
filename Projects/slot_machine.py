@@ -12,11 +12,17 @@ def print_row(row):
 
 def pay_out(row, bet):
     if row[0] == row[1] == row[2]:
-        print(f"Congratulations! You won ${bet * 10}!!")
-        return bet * 10
-    elif row[0] == row[1] or row[1] == row[2] or row[0] == row[2]:
-        print(f"You won ${bet * 2}!")
-        return bet * 2
+        if row[0] == "🍒":
+            return bet * 10
+        elif row[0] == "🍋":
+            return bet * 5
+        elif row[0] == "🍊":
+            return bet * 4
+        elif row[0] == "🍉":
+            return bet * 3
+        elif row[0] == "🍇":
+            return bet * 2
+        
     else:
         print("Sorry, you lost the bet..")
         return 0
