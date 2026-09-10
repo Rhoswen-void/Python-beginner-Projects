@@ -137,11 +137,14 @@ def main():
         elif "".join(hint) == answer:
             flag = True
             break
-    
+
+    display_man(wrong_guesses)
+    display_hint(hint)
+
     if flag:
         print("You got the word!!")
     elif not flag:
-        print("Sorry! you didn't get to word...")
+        print("Sorry! you didn't get the word...")
 
     display_answer(answer)
         
