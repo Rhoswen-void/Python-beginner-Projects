@@ -1,5 +1,19 @@
-Encryption Program:
+1.Encryption Program:
 
-To create this program we create a string of character and store it in chars.
-and then, create a list called key and then shuffle this key.
-This key can then be used to encrypt or decrypt any of the message that are sent by the user.
+    To create this program we create a string of character and store it in chars.
+    and then, create a list called key and then shuffle this key.
+    This key can then be used to encrypt or decrypt any of the message that are sent by the user.
+
+2. Hangman Game:
+
+    The Program uses the random module to take a random word from a given tuple of words.
+    It also consists of a hangman_art dictionary, that prints the stages of the game(the hangman),
+    using ACII art. The program is divided into 3 distinct functions excluding the main function.
+    They are:
+    - display_man
+    - display_hint
+    - display_answer
+
+    Here display_man is used to display the hangman. The display_hint, does display the hint, and the
+    display_answer is used to display the answer at the end of the program, regardless if the player wins
+    or losses.
