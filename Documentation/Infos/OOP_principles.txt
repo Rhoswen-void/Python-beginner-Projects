@@ -1,0 +1,5 @@
+Object = A "bundle" of related attributes (variables) and methods (functions)
+         Ex. phone, cup, book
+         You need a "class" to create many objects
+
+Class = A blueprint for an object.
