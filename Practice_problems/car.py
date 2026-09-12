@@ -16,3 +16,4 @@ class Car:
             print(f"Yes the {self.color} {self.model} is for sale.")
         else:
             print(f"Yes the {self.color} {self.model} is not for sale.")
+            
