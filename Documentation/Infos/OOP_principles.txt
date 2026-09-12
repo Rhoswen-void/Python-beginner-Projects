@@ -3,3 +3,8 @@ Object = A "bundle" of related attributes (variables) and methods (functions)
          You need a "class" to create many objects
 
 Class = A blueprint for an object.
+        To create an object in a class we use a special kind of method called a constructor.
+        We use function "def __init__(self,parameter1,parameter2...):"
+
+        Eg: To access some the characteristic of we <object_name>.attribute to access that attribute
+            for the given object.
