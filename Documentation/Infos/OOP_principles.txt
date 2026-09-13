@@ -14,3 +14,5 @@ Methods: Methods are actions that our object can perform.
 Class varaibles: Shared among all instances of a class.
                  Defined outside the constructor
                  Allows you to share data among all objects created from that class
+                 Instance variables are defined in the constructor.
+                 
