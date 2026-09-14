@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class Shape:
+class Shape(ABC):
 
     @abstractmethod
     def area(self):
