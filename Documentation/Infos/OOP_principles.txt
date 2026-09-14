@@ -24,3 +24,6 @@ Multiple Inheritance: Inheriting from more than parent C(A,B)
 
 Multilevel Inheritance: inherit from a parent that inherits from another 
                         C(B) <- B(A) <- A
+
+super(): Function used in a child class to call methods from the parent class (superclass).
+         Allows you to extend the functionality of the inherited method.
