@@ -27,3 +27,14 @@ Multilevel Inheritance: inherit from a parent that inherits from another
 
 super(): Function used in a child class to call methods from the parent class (superclass).
          Allows you to extend the functionality of the inherited method.
+
+         If a child shares a similar version of a method as the parent we use the childs version and not the
+         parents version.
+
+Polymorphism: Greek word that means to have many forms or faces.
+              Poly = many
+              Morph = forms
+
+              TWO WAYS TO ACHIEVE Polymorphism:
+              1. Inheritance = An object could be treated of the same type as a parent class
+              2. "Duck typing" = Object must have necessary attributes/methods. 
