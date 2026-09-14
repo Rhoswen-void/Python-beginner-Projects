@@ -42,3 +42,9 @@ Polymorphism: Greek word that means to have many forms or faces.
 "Duck Typing": Another way to implement Polymorphism.
                Objects must have the minimum neccessary attributes/methods
                "If it looks like a duck and quacks like a duck, it must be a duck."
+
+Static method: A method that belongs to a class rather than any object from that class (Instance)
+               Usually used for general utility functions.
+
+               Static method = Best for utility functions that don't require access to class data.
+               Instance method = Best for operations on instances of a class(Object).
