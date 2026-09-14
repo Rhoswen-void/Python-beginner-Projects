@@ -19,3 +19,8 @@ Class varaibles: Shared among all instances of a class.
 Inheritance: Allows a class to inherit attributes and methods from another class.
              Helps with code reusability and extensibility
              class Child(Parent)
+
+Multiple Inheritance: Inheriting from more than parent C(A,B)
+
+Multilevel Inheritance: inherit from a parent that inherits from another 
+                        C(B) <- B(A) <- A
