@@ -6,6 +6,7 @@ class Shape(ABC):
     def area(self):
         pass
 
+#Subclass must define area() or else python throws an error
 class Circle(Shape):
     def __init__(self, radius):
         self.radius = radius
