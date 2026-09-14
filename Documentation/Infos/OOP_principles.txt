@@ -37,4 +37,8 @@ Polymorphism: Greek word that means to have many forms or faces.
 
               TWO WAYS TO ACHIEVE Polymorphism:
               1. Inheritance = An object could be treated of the same type as a parent class
-              2. "Duck typing" = Object must have necessary attributes/methods. 
+              2. "Duck typing" = Object must have necessary attributes/methods.
+
+"Duck Typing": Another way to implement Polymorphism.
+               Objects must have the minimum neccessary attributes/methods
+               "If it looks like a duck and quacks like a duck, it must be a duck."
