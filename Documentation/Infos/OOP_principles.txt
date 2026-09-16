@@ -51,3 +51,7 @@ Static method: A method that belongs to a class rather than any object from that
 
 Class method: Allow operations related to class itself.
               Take (cls) as the first parameter, which refers to the class itself.
+
+Magic method: Dunder methods (double underscored) __init__,__str__,__eq__
+              They are automatically called by many of Python's built in operations.
+              They allow developers to define or customize the behaviour of objects.
