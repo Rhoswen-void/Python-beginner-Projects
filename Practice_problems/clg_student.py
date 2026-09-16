@@ -22,7 +22,7 @@ class Student:
         if cls.count == 0:
             return 0;
         else:
-            return f"The average GPA is {Student.total_gpa/Student.count}"
+            return f"The average GPA is {Student.total_gpa/Student.count:.2f}"#what this does is that it gives the avg GPA upto 2 decimal places.
 
 
 student1 = Student("Rahul", 9.5)
