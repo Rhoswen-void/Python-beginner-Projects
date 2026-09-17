@@ -59,3 +59,10 @@ Magic method: Dunder methods (double underscored) __init__,__str__,__eq__
 @property = Decorator used to define a method as a property (It can be accessed like an attribute)
             Benefit: Adds additional logic when read, write, or delete attributes
             Gives you getter, setter and deletter methods
+
+Decorator: A function that modifies the behaviour of another function without changing the base function
+           Pass the base function as an argument to the decorator.
+
+           @add_sprinkles
+           def get_icecream("Vanilla"): 
+           
