@@ -55,3 +55,7 @@ Class method: Allow operations related to class itself.
 Magic method: Dunder methods (double underscored) __init__,__str__,__eq__
               They are automatically called by many of Python's built in operations.
               They allow developers to define or customize the behaviour of objects.
+
+@property = Decorator used to define a method as a property (It can be accessed like an attribute)
+            Benefit: Adds additional logic when read, write, or delete attributes
+            Gives you getter, setter and deletter methods
