@@ -17,3 +17,4 @@
     Here display_man is used to display the hangman. The display_hint, does display the hint, and the
     display_answer is used to display the answer at the end of the program, regardless if the player wins
     or losses.
+    

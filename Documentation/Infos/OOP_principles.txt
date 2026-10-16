@@ -65,4 +65,15 @@ Decorator: A function that modifies the behaviour of another function without ch
 
            @add_sprinkles
            def get_icecream("Vanilla"): 
-           
+
+Exception Handling: try:
+                        #some block of code
+                    except <Error>:
+                        #block of code that would be executed when such error occurs
+                    .
+                    .
+                    .
+                    finally:
+                        #block of code thats executed regardless 
+
+

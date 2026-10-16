@@ -1,0 +1,18 @@
+import os: its a module thats used to detect files and work with them. In the program that I made it was used
+           to check if a given file exists and if it is a file or a directory.
+
+Text files: There are different modes in which text files can be opened, such as a(append), w(write), r(read) etc.
+            write() is used to write to the txt file
+            read() returns the entire content of the file
+            readlines() returns the contents of the file in the form of list where each line is an element of that list
+
+JSON file: It contains key value pairs, and we need to import json module to read and write it.
+           json.dump(f) is used to write the file
+           json.load(f) is used to read the file
+
+CSV files: As the name suggests it consists of comma seperated values, and it is similar to something like an excel sheet.
+           To read or write the file first we need to create an object of the file:
+           r = csv.reader(f) is a reader object which can be used to access the contents of the file
+           w = csv.writer(f) is writer object which can be used to write to the file:
+                w.writerow(content) -> writes a single row
+                w.writerows(content) -> takes a list of rows

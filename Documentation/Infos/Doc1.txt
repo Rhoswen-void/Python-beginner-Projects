@@ -24,4 +24,4 @@
                              helps with readability, leaves no variables, avoid unintended exectution)
 
             ex. Library: Suppose here Library is a function, and we want to import this function
-            library. But when running the library function, a Help Page pops up. 
+            library. But when running the library function, a Help Page pops up.
